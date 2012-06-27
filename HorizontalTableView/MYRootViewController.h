@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class HorizontalTableView;
+@class VIHorizontalTableView;
 
 @interface MYRootViewController : UIViewController <UITableViewDataSource>
 

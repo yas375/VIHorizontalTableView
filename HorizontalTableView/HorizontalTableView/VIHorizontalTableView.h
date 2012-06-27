@@ -1,5 +1,5 @@
 //
-//  HorizontalTableView.h
+//  VIHorizontalTableView.h
 //  HorizontalTableView
 //
 //  Created by Victor Ilyukevich on 27.06.12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HorizontalTableView : UITableView
+@interface VIHorizontalTableView : UITableView
 
 @end

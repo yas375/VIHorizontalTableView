@@ -7,14 +7,14 @@
 //
 
 #import "MYRootViewController.h"
-#import "HorizontalTableView.h"
+#import "VIHorizontalTableView.h"
 #import "MYTableViewCell.h"
 
 static NSString *const kCellIdentifier = @"kCellIdentifier";
 
 
 @interface MYRootViewController () {
-    __weak IBOutlet HorizontalTableView *menuTableView;
+    __weak IBOutlet VIHorizontalTableView *menuTableView;
 }
 @end
 

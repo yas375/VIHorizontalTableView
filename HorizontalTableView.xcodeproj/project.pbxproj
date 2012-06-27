@@ -13,8 +13,8 @@
 		502D7FF3159AFE75006184F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 502D7FF1159AFE75006184F0 /* InfoPlist.strings */; };
 		502D7FF5159AFE75006184F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D7FF4159AFE75006184F0 /* main.m */; };
 		502D7FF9159AFE75006184F0 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D7FF8159AFE75006184F0 /* MYAppDelegate.m */; };
-		502D8005159AFF49006184F0 /* HorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D8002159AFF49006184F0 /* HorizontalTableViewCell.m */; };
-		502D8006159AFF49006184F0 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D8004159AFF49006184F0 /* HorizontalTableView.m */; };
+		502D8005159AFF49006184F0 /* VIHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D8002159AFF49006184F0 /* VIHorizontalTableViewCell.m */; };
+		502D8006159AFF49006184F0 /* VIHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D8004159AFF49006184F0 /* VIHorizontalTableView.m */; };
 		502D8008159AFF8B006184F0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502D8007159AFF8B006184F0 /* Storyboard.storyboard */; };
 		502D800B159B004A006184F0 /* MYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D800A159B004A006184F0 /* MYRootViewController.m */; };
 		502D800E159B0183006184F0 /* MYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D800D159B0183006184F0 /* MYTableViewCell.m */; };
@@ -33,10 +33,10 @@
 		502D7FF6159AFE75006184F0 /* HorizontalTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorizontalTableView-Prefix.pch"; sourceTree = "<group>"; };
 		502D7FF7159AFE75006184F0 /* MYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
 		502D7FF8159AFE75006184F0 /* MYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
-		502D8001159AFF49006184F0 /* HorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTableViewCell.h; sourceTree = "<group>"; };
-		502D8002159AFF49006184F0 /* HorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableViewCell.m; sourceTree = "<group>"; };
-		502D8003159AFF49006184F0 /* HorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTableView.h; sourceTree = "<group>"; };
-		502D8004159AFF49006184F0 /* HorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableView.m; sourceTree = "<group>"; };
+		502D8001159AFF49006184F0 /* VIHorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIHorizontalTableViewCell.h; sourceTree = "<group>"; };
+		502D8002159AFF49006184F0 /* VIHorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIHorizontalTableViewCell.m; sourceTree = "<group>"; };
+		502D8003159AFF49006184F0 /* VIHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIHorizontalTableView.h; sourceTree = "<group>"; };
+		502D8004159AFF49006184F0 /* VIHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIHorizontalTableView.m; sourceTree = "<group>"; };
 		502D8007159AFF8B006184F0 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		502D8009159B004A006184F0 /* MYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRootViewController.h; sourceTree = "<group>"; };
 		502D800A159B004A006184F0 /* MYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRootViewController.m; sourceTree = "<group>"; };
@@ -120,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				502D8000159AFF49006184F0 /* Cell */,
-				502D8003159AFF49006184F0 /* HorizontalTableView.h */,
-				502D8004159AFF49006184F0 /* HorizontalTableView.m */,
+				502D8003159AFF49006184F0 /* VIHorizontalTableView.h */,
+				502D8004159AFF49006184F0 /* VIHorizontalTableView.m */,
 			);
 			path = HorizontalTableView;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 		502D8000159AFF49006184F0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				502D8001159AFF49006184F0 /* HorizontalTableViewCell.h */,
-				502D8002159AFF49006184F0 /* HorizontalTableViewCell.m */,
+				502D8001159AFF49006184F0 /* VIHorizontalTableViewCell.h */,
+				502D8002159AFF49006184F0 /* VIHorizontalTableViewCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -211,8 +211,8 @@
 			files = (
 				502D7FF5159AFE75006184F0 /* main.m in Sources */,
 				502D7FF9159AFE75006184F0 /* MYAppDelegate.m in Sources */,
-				502D8005159AFF49006184F0 /* HorizontalTableViewCell.m in Sources */,
-				502D8006159AFF49006184F0 /* HorizontalTableView.m in Sources */,
+				502D8005159AFF49006184F0 /* VIHorizontalTableViewCell.m in Sources */,
+				502D8006159AFF49006184F0 /* VIHorizontalTableView.m in Sources */,
 				502D800B159B004A006184F0 /* MYRootViewController.m in Sources */,
 				502D800E159B0183006184F0 /* MYTableViewCell.m in Sources */,
 			);

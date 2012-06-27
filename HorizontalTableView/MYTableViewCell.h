@@ -6,8 +6,8 @@
 //  Copyright (c) 2012. All rights reserved.
 //
 
-#import "HorizontalTableViewCell.h"
+#import "VIHorizontalTableViewCell.h"
 
-@interface MYTableViewCell : HorizontalTableViewCell
+@interface MYTableViewCell : VIHorizontalTableViewCell
 
 @end
