@@ -23,7 +23,7 @@ And run `pod install`.
 ### Without cocoapods
 At first you should read about [cocoapods](http://cocoapods.org/) and maybe give it a try (and follow recommended installation process).
 
-Add files from HorizontalTableView folder to your project.
+Add files from `Classes` folder to your project.
 
 ## Usage
 

@@ -13,13 +13,13 @@
 		502D7FF3159AFE75006184F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 502D7FF1159AFE75006184F0 /* InfoPlist.strings */; };
 		502D7FF5159AFE75006184F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D7FF4159AFE75006184F0 /* main.m */; };
 		502D7FF9159AFE75006184F0 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D7FF8159AFE75006184F0 /* MYAppDelegate.m */; };
-		502D8005159AFF49006184F0 /* VIHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D8002159AFF49006184F0 /* VIHorizontalTableViewCell.m */; };
-		502D8006159AFF49006184F0 /* VIHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D8004159AFF49006184F0 /* VIHorizontalTableView.m */; };
 		502D8008159AFF8B006184F0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502D8007159AFF8B006184F0 /* Storyboard.storyboard */; };
 		502D800B159B004A006184F0 /* MYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D800A159B004A006184F0 /* MYRootViewController.m */; };
 		502D800E159B0183006184F0 /* MYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D800D159B0183006184F0 /* MYTableViewCell.m */; };
 		502D8010159B01A2006184F0 /* MYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502D800F159B01A2006184F0 /* MYTableViewCell.xib */; };
 		502D8013159B19C4006184F0 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 502D8012159B19C4006184F0 /* image.png */; };
+		50BDB891159B6DDD008DC227 /* VIHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BDB88E159B6DDD008DC227 /* VIHorizontalTableView.m */; };
+		50BDB892159B6DDD008DC227 /* VIHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BDB890159B6DDD008DC227 /* VIHorizontalTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +33,6 @@
 		502D7FF6159AFE75006184F0 /* HorizontalTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorizontalTableView-Prefix.pch"; sourceTree = "<group>"; };
 		502D7FF7159AFE75006184F0 /* MYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
 		502D7FF8159AFE75006184F0 /* MYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
-		502D8001159AFF49006184F0 /* VIHorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIHorizontalTableViewCell.h; sourceTree = "<group>"; };
-		502D8002159AFF49006184F0 /* VIHorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIHorizontalTableViewCell.m; sourceTree = "<group>"; };
-		502D8003159AFF49006184F0 /* VIHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIHorizontalTableView.h; sourceTree = "<group>"; };
-		502D8004159AFF49006184F0 /* VIHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIHorizontalTableView.m; sourceTree = "<group>"; };
 		502D8007159AFF8B006184F0 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		502D8009159B004A006184F0 /* MYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRootViewController.h; sourceTree = "<group>"; };
 		502D800A159B004A006184F0 /* MYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRootViewController.m; sourceTree = "<group>"; };
@@ -44,6 +40,10 @@
 		502D800D159B0183006184F0 /* MYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTableViewCell.m; sourceTree = "<group>"; };
 		502D800F159B01A2006184F0 /* MYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYTableViewCell.xib; sourceTree = "<group>"; };
 		502D8012159B19C4006184F0 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		50BDB88D159B6DDD008DC227 /* VIHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIHorizontalTableView.h; sourceTree = "<group>"; };
+		50BDB88E159B6DDD008DC227 /* VIHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIHorizontalTableView.m; sourceTree = "<group>"; };
+		50BDB88F159B6DDD008DC227 /* VIHorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIHorizontalTableViewCell.h; sourceTree = "<group>"; };
+		50BDB890159B6DDD008DC227 /* VIHorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIHorizontalTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,17 +90,17 @@
 		502D7FEE159AFE75006184F0 /* HorizontalTableView */ = {
 			isa = PBXGroup;
 			children = (
-				502D7FFF159AFF49006184F0 /* HorizontalTableView */,
+				50BDB88C159B6DDD008DC227 /* Classes */,
 				502D7FF7159AFE75006184F0 /* MYAppDelegate.h */,
 				502D7FF8159AFE75006184F0 /* MYAppDelegate.m */,
-				502D7FEF159AFE75006184F0 /* Supporting Files */,
-				502D8007159AFF8B006184F0 /* Storyboard.storyboard */,
 				502D8009159B004A006184F0 /* MYRootViewController.h */,
 				502D800A159B004A006184F0 /* MYRootViewController.m */,
-				502D8011159B19C4006184F0 /* Resources */,
 				502D800C159B0183006184F0 /* MYTableViewCell.h */,
 				502D800D159B0183006184F0 /* MYTableViewCell.m */,
 				502D800F159B01A2006184F0 /* MYTableViewCell.xib */,
+				502D8011159B19C4006184F0 /* Resources */,
+				502D8007159AFF8B006184F0 /* Storyboard.storyboard */,
+				502D7FEF159AFE75006184F0 /* Supporting Files */,
 			);
 			path = HorizontalTableView;
 			sourceTree = "<group>";
@@ -116,25 +116,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		502D7FFF159AFF49006184F0 /* HorizontalTableView */ = {
-			isa = PBXGroup;
-			children = (
-				502D8000159AFF49006184F0 /* Cell */,
-				502D8003159AFF49006184F0 /* VIHorizontalTableView.h */,
-				502D8004159AFF49006184F0 /* VIHorizontalTableView.m */,
-			);
-			path = HorizontalTableView;
-			sourceTree = "<group>";
-		};
-		502D8000159AFF49006184F0 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				502D8001159AFF49006184F0 /* VIHorizontalTableViewCell.h */,
-				502D8002159AFF49006184F0 /* VIHorizontalTableViewCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 		502D8011159B19C4006184F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +123,17 @@
 			);
 			path = Resources;
 			sourceTree = "<group>";
+		};
+		50BDB88C159B6DDD008DC227 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50BDB88D159B6DDD008DC227 /* VIHorizontalTableView.h */,
+				50BDB88E159B6DDD008DC227 /* VIHorizontalTableView.m */,
+				50BDB88F159B6DDD008DC227 /* VIHorizontalTableViewCell.h */,
+				50BDB890159B6DDD008DC227 /* VIHorizontalTableViewCell.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -211,10 +203,10 @@
 			files = (
 				502D7FF5159AFE75006184F0 /* main.m in Sources */,
 				502D7FF9159AFE75006184F0 /* MYAppDelegate.m in Sources */,
-				502D8005159AFF49006184F0 /* VIHorizontalTableViewCell.m in Sources */,
-				502D8006159AFF49006184F0 /* VIHorizontalTableView.m in Sources */,
 				502D800B159B004A006184F0 /* MYRootViewController.m in Sources */,
 				502D800E159B0183006184F0 /* MYTableViewCell.m in Sources */,
+				50BDB891159B6DDD008DC227 /* VIHorizontalTableView.m in Sources */,
+				50BDB892159B6DDD008DC227 /* VIHorizontalTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +310,7 @@
 				502D7FFE159AFE75006184F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
