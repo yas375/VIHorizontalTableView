@@ -11,7 +11,7 @@ I already saw at least two projects with not very nice implementation of this fe
 I decided to clarify this for myself and I saw this task is very simple but needs some understanding and attention. So I decides to create this little project to move rotation logic out of my concrete classes and to give clear instructions how to accomplish this task.
 
 ## How to install
-### Cocoapods (recommended)
+### CocoaPods (recommended)
 Add to your Podfile:
 
 ```
