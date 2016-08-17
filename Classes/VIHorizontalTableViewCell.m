@@ -13,7 +13,7 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.transform = CGAffineTransformMakeRotation(M_PI_2);
+        self.transform = CGAffineTransformMakeRotation(-M_PI_2);
     }
     return self;
 }
@@ -21,7 +21,7 @@
 - (id)initWithCoder:(NSCoder *)coder {
     self = [super initWithCoder:coder];
     if (self) {
-        self.transform = CGAffineTransformMakeRotation(M_PI_2);
+        self.transform = CGAffineTransformMakeRotation(-M_PI_2);
     }
     return self;
 }
